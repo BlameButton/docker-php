@@ -2,7 +2,7 @@ FROM ubuntu:20.04
 
 ARG DEBIAN_FRONTEND=noninteractive
 ARG CHROME_URL="https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb"
-ARG PACKAGES="php7.4-cli php7.4-curl php7.4-dom php7.4-mysql php7.4-zip curl libglib2.0-0 libnss3 libx11-6"
+ARG PACKAGES="php7.4-cli php7.4-curl php7.4-dom php7.4-mysql php7.4-zip curl wait-for-it libglib2.0-0 libnss3 libx11-6"
 
 # - Update existing packages
 # - Clean left deb's
